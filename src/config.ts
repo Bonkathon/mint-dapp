@@ -28,13 +28,13 @@ export const whitelistedWallets = [
 ];
 
 export const collectionImageURL =
-  process.env.NEXT_PUBLIC_COLLECTION_IMAGE_URL || "https://images.pexels.com/photos/2832432/pexels-photo-2832432.png";
+  process.env.NEXT_PUBLIC_COLLECTION_IMAGE_URL || "https://media3.giphy.com/media/3oEdv63irVXZDQ1r20/200w.gif?cid=6c09b952y5sbsv1d8agor8oqppqvbozbioey0fcu2et6k1bw&ep=v1_gifs_search&rid=200w.gif&ct=g";
 
 export const collectionTitle =
-  process.env.NEXT_PUBLIC_COLLECTION_TITLE || "Collection Name";
+  process.env.NEXT_PUBLIC_COLLECTION_TITLE || "Bonkmon";
 
 export const collectionDescription =
-  process.env.NEXT_PUBLIC_COLLECTION_DESCRIPTION || "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.";
+  process.env.NEXT_PUBLIC_COLLECTION_DESCRIPTION || "Bonkmon are little collectible animals that you can take care of, feed and have fun with. Mint your bonkmon right now!";
 
 export const tokenType =
   process.env.NEXT_PUBLIC_TOKEN_TYPE || "Token";
